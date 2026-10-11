@@ -175,7 +175,9 @@ A slim, ruled header pairs the AEH wordmark with text links and an EN/FR selecto
 
 Each frame contains a numbered caption, project name, technical category and selectable preview. The selected frame and caption use orange. On mobile each frame uses the frontmatter container padding, its own border and `16px` separation. Image selection updates the associated title, summary and technical details. Category controls also use `aria-pressed`; desktop category numbers have a vertical separator, while mobile options sit in ruled rows.
 
-The three sheet previews are explicitly labeled illustrative interface studies. The expanded NexaERP case also presents an original repository capture with a provenance caption. Continue distinguishing illustrative material from source evidence.
+The NexaERP sheet preview uses an original dashboard capture matching the current warm-paper, olive and vermilion interface. The two mobile project previews remain illustrative interface studies. The expanded NexaERP case offers eight selectable original captures: dashboard, CRM pipeline, light and dark catalogues, product creation, company onboarding, responsive web dashboard and a generated invoice from an Android-to-web test. Captions identify test data, and every capture opens at full size. Keep image proportions intact. The selectors use four columns on desktop and two on mobile; they never require horizontal scrolling.
+
+The original PNG bytes are stored in `src/nexa-screenshots.json` and `src/nexa-screenshots-more.json`. The build writes them to separate static image files so gallery imagery stays lazy-loaded and out of the JavaScript bundle. The interface captures come from the September 30 design test; the invoice comes from the October 2 mobile workflow test. Current NexaERP tokens and sidebar components were checked against the captures; the older blue screenshots and the later-reverted web/mobile design experiment are not used.
 
 ### Editorial rows
 
