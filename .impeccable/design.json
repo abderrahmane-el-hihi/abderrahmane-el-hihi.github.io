@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-11T18:58:13.016Z",
+  "title": "Design System: Abderrahmane El Hihi — Engineering Viewing Desk",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "tonalRamp": [
+          "oklch(15% 0.00952 93.57)",
+          "oklch(26.43% 0.00952 93.57)",
+          "oklch(37.86% 0.00952 93.57)",
+          "oklch(49.29% 0.00952 93.57)",
+          "oklch(60.71% 0.00952 93.57)",
+          "oklch(72.14% 0.00952 93.57)",
+          "oklch(83.57% 0.00952 93.57)",
+          "oklch(95% 0.00952 93.57)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Deep Ink",
+        "tonalRamp": [
+          "oklch(15% 0.02053 267.73)",
+          "oklch(26.43% 0.02053 267.73)",
+          "oklch(37.86% 0.02053 267.73)",
+          "oklch(49.29% 0.02053 267.73)",
+          "oklch(60.71% 0.02053 267.73)",
+          "oklch(72.14% 0.02053 267.73)",
+          "oklch(83.57% 0.02053 267.73)",
+          "oklch(95% 0.02053 267.73)"
+        ]
+      },
+      "blue": {
+        "role": "primary",
+        "displayName": "Inspection Cobalt",
+        "tonalRamp": [
+          "oklch(15% 0.24124 265.91)",
+          "oklch(26.43% 0.24124 265.91)",
+          "oklch(37.86% 0.24124 265.91)",
+          "oklch(49.29% 0.24124 265.91)",
+          "oklch(60.71% 0.24124 265.91)",
+          "oklch(72.14% 0.24124 265.91)",
+          "oklch(83.57% 0.24124 265.91)",
+          "oklch(95% 0.24124 265.91)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Quiet Slate",
+        "tonalRamp": [
+          "oklch(15% 0.02171 258.37)",
+          "oklch(26.43% 0.02171 258.37)",
+          "oklch(37.86% 0.02171 258.37)",
+          "oklch(49.29% 0.02171 258.37)",
+          "oklch(60.71% 0.02171 258.37)",
+          "oklch(72.14% 0.02171 258.37)",
+          "oklch(83.57% 0.02171 258.37)",
+          "oklch(95% 0.02171 258.37)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Soft Rule",
+        "tonalRamp": [
+          "oklch(15% 0.00428 157.16)",
+          "oklch(26.43% 0.00428 157.16)",
+          "oklch(37.86% 0.00428 157.16)",
+          "oklch(49.29% 0.00428 157.16)",
+          "oklch(60.71% 0.00428 157.16)",
+          "oklch(72.14% 0.00428 157.16)",
+          "oklch(83.57% 0.00428 157.16)",
+          "oklch(95% 0.00428 157.16)"
+        ]
+      },
+      "blue-tint": {
+        "role": "primary",
+        "displayName": "Cobalt Mist",
+        "tonalRamp": [
+          "oklch(15% 0.03887 274.48)",
+          "oklch(26.43% 0.03887 274.48)",
+          "oklch(37.86% 0.03887 274.48)",
+          "oklch(49.29% 0.03887 274.48)",
+          "oklch(60.71% 0.03887 274.48)",
+          "oklch(72.14% 0.03887 274.48)",
+          "oklch(83.57% 0.03887 274.48)",
+          "oklch(95% 0.03887 274.48)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "tonalRamp": [
+          "oklch(15% 0.00000 89.88)",
+          "oklch(26.43% 0.00000 89.88)",
+          "oklch(37.86% 0.00000 89.88)",
+          "oklch(49.29% 0.00000 89.88)",
+          "oklch(60.71% 0.00000 89.88)",
+          "oklch(72.14% 0.00000 89.88)",
+          "oklch(83.57% 0.00000 89.88)",
+          "oklch(95% 0.00000 89.88)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Monumental identity",
+        "purpose": "The real name at the introduction; Menbere bold."
+      },
+      "headline-about": {
+        "displayName": "About headline",
+        "purpose": "Compact bold section statement."
+      },
+      "headline-research": {
+        "displayName": "Research headline",
+        "purpose": "Open research section statement."
+      },
+      "headline-contact": {
+        "displayName": "Contact headline",
+        "purpose": "Monumental contact statement on cobalt."
+      },
+      "project-title": {
+        "displayName": "Selected project title",
+        "purpose": "Title beside the inspected output."
+      },
+      "body": {
+        "displayName": "Reading prose",
+        "purpose": "Case-study reading; section-specific sizes are recorded in DESIGN.md."
+      },
+      "intro": {
+        "displayName": "Introduction",
+        "purpose": "Short identity statement beside the name."
+      },
+      "label": {
+        "displayName": "Mono annotation",
+        "purpose": "Dates, small technical annotations and counts."
+      },
+      "stack": {
+        "displayName": "Project stack",
+        "purpose": "Concise technology metadata on cobalt."
+      }
+    },
+    "shadows": [
+      {
+        "name": "artifact-plane",
+        "value": "0 24px 40px #09267740",
+        "purpose": "Stationary soft blue shadow behind the inspected artifact only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Actual CSS --ease token used by the project reveal and case action."
+      },
+      {
+        "name": "artifact-reveal",
+        "value": "clip-path: inset(0 0 100% 0) to inset(0); 0.65s",
+        "purpose": "A changed project frame reveals; final artifact remains visible without animation."
+      },
+      {
+        "name": "case-gap",
+        "value": "gap 0.2s var(--ease)",
+        "purpose": "Case action gap changes on hover."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none !important; transition: none !important; scroll-behavior: auto",
+        "purpose": "Applies under prefers-reduced-motion: reduce; case scrolling respects the same preference."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow",
+        "value": "370px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      },
+      {
+        "name": "tablet",
+        "value": "1100px"
+      },
+      {
+        "name": "large-desktop",
+        "value": "1600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Project selector",
+      "kind": "button",
+      "refersTo": "project-button",
+      "description": "Native pressed controls on the cobalt inspection stage; selection behavior lives in App.jsx.",
+      "html": "<div class=\"ds-project-group\" role=\"group\" aria-label=\"Choose a project\"><button class=\"ds-project-button\" aria-pressed=\"true\">NEXAERP<span><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></span></button><button class=\"ds-project-button\" aria-pressed=\"false\">E-CEMOS<span><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></span></button><button class=\"ds-project-button\" aria-pressed=\"false\">JIBOULI<span><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></span></button></div>",
+      "css": ".ds-project-group{display:flex;gap:6px;padding:12px 0;background:var(--blue,#234bea)}.ds-project-button{font-family:Menbere,sans-serif;display:flex;gap:20px;align-items:center;padding:12px 16px;min-height:44px;font-size:13px;border:0;background:none;color:var(--blue-tint,#dce3ff);border-radius:4px;cursor:pointer}.ds-project-button span{opacity:0;width:18px;height:18px}.ds-project-button svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;width:18px;height:18px;transform:rotate(-35deg)}.ds-project-button[aria-pressed=true]{background:var(--white,#fff);color:var(--blue,#234bea)}.ds-project-button[aria-pressed=true] span,.ds-project-button:hover span{opacity:1}.ds-project-button:hover{background:#153ed5;color:var(--white,#fff)}.ds-project-button:focus-visible{outline:2px solid var(--white,#fff);outline-offset:5px;}@media(max-width:760px){.ds-project-group{gap:3px}.ds-project-button{flex:1;justify-content:space-between;font-size:11px;padding:10px 9px;gap:4px}.ds-project-button span,.ds-project-button svg{width:14px;height:14px}}"
+    },
+    {
+      "name": "Language choice",
+      "kind": "button",
+      "refersTo": "language-button",
+      "description": "Rounded two-button language group with an ink selected pill; persistence is implemented in App.jsx.",
+      "html": "<div class=\"ds-languages\" role=\"group\" aria-label=\"Language\"><button class=\"ds-language\" lang=\"en\" aria-pressed=\"true\">EN</button><button class=\"ds-language\" lang=\"fr\" aria-pressed=\"false\">FR</button></div>",
+      "css": ".ds-languages{display:inline-flex;gap:4px;border:1px solid var(--line,#c8cbc9);border-radius:24px;padding:4px;background:var(--paper,#f5f3ec)}.ds-language{font-family:Menbere,sans-serif;min-width:42px;min-height:34px;font-size:12px;border-radius:20px;border:0;background:none;color:var(--ink,#171b25);cursor:pointer}.ds-language[aria-pressed=true]{background:var(--ink,#171b25);color:var(--paper,#f5f3ec)}.ds-language:hover{background:var(--blue,#234bea);color:var(--white,#fff)}.ds-language:focus-visible{outline:2px solid var(--blue,#234bea);outline-offset:5px;}@media(max-width:760px){.ds-languages{padding:2px;gap:0}.ds-language{min-width:32px;min-height:32px;font-size:10px}}"
+    },
+    {
+      "name": "Case action",
+      "kind": "button",
+      "refersTo": "case-action",
+      "description": "Ruled white inline case-study trigger on the cobalt stage.",
+      "html": "<div class=\"ds-case-ground\"><button class=\"ds-case-action\" aria-expanded=\"false\">View case study<svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></button></div>",
+      "css": ".ds-case-ground{background:var(--blue,#234bea)}.ds-case-action{font-family:Menbere,sans-serif;display:flex;align-items:center;gap:28px;padding:10px 0;border:0;border-bottom:1px solid #91a7ff;background:none;font-size:14px;color:var(--white,#fff);cursor:pointer;transition:gap .2s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-case-action:hover{gap:36px;border-bottom-color:var(--white,#fff)}.ds-case-action svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}.ds-case-action:focus-visible{outline:2px solid var(--white,#fff);outline-offset:5px;}@media(max-width:760px){.ds-case-action{font-size:11px;gap:8px;padding-top:4px}.ds-case-action svg{width:17px;height:17px}}@media(prefers-reduced-motion:reduce){.ds-case-action{transition:none}}"
+    },
+    {
+      "name": "Text link",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "Paper-surface source link with an authored SVG arrow and cobalt hover.",
+      "html": "<a class=\"ds-text-link\" href=\"https://github.com/abderrahmane-el-hihi/NexaERP\">Explore source<svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></a>",
+      "css": ".ds-text-link{font-family:Menbere,sans-serif;display:inline-flex;gap:12px;align-items:center;color:var(--ink,#171b25);text-decoration:none;font-size:14px;padding:6px 0;min-height:36px;text-underline-offset:5px;text-decoration-thickness:1px}.ds-text-link:hover{color:var(--blue,#234bea);text-decoration:underline}.ds-text-link svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;width:24px;height:24px}.ds-text-link:focus-visible{outline:2px solid var(--blue,#234bea);outline-offset:5px;}"
+    },
+    {
+      "name": "Close case",
+      "kind": "button",
+      "refersTo": "close-case",
+      "description": "Small lightly outlined control that fills ink on hover.",
+      "html": "<button class=\"ds-close-case\">Close case study<svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"m6 6 12 12M6 18 18 6\"/></svg></button>",
+      "css": ".ds-close-case{font-family:Menbere,sans-serif;display:flex;align-items:center;gap:12px;font-size:12px;padding:10px;border:1px solid var(--line,#c8cbc9);border-radius:4px;background:none;color:var(--ink,#171b25);cursor:pointer}.ds-close-case:hover{background:var(--ink,#171b25);color:var(--white,#fff)}.ds-close-case svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;width:24px;height:24px}.ds-close-case:focus-visible{outline:2px solid var(--blue,#234bea);outline-offset:5px;}@media(max-width:760px){.ds-close-case{font-size:11px}}"
+    },
+    {
+      "name": "Artifact frame",
+      "kind": "custom",
+      "refersTo": "artifact-surface",
+      "description": "The square output frame and its toolbar; the blank slot represents an original image, not fabricated interface content.",
+      "html": "<div class=\"ds-artifact-frame\"><div class=\"ds-preview-toolbar\"><span>Current web interface</span><span>NexaERP</span></div><div class=\"ds-image-slot\" role=\"img\" aria-label=\"Original software image slot\"></div></div>",
+      "css": ".ds-artifact-frame{font-family:Menbere,sans-serif;background:var(--paper,#f5f3ec);color:var(--ink,#171b25);box-shadow:0 24px 40px #09267740;border-radius:0;animation:ds-artifact-scan .65s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-preview-toolbar{height:34px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0 14px;font-size:10px;color:var(--muted,#58606c);background:#e8e8e3}.ds-image-slot{height:clamp(280px,32vw,455px);background:var(--paper,#f5f3ec)}@keyframes ds-artifact-scan{from{clip-path:inset(0 0 100% 0)}to{clip-path:inset(0)}}@media(max-width:1100px){.ds-image-slot{height:350px}}@media(max-width:760px){.ds-preview-toolbar{height:28px;font-size:8px;padding:0 8px}.ds-image-slot{height:auto;aspect-ratio:1.44}}@media(min-width:1600px){.ds-image-slot{height:480px}}@media(prefers-reduced-motion:reduce){.ds-artifact-frame{animation:none}}"
+    },
+    {
+      "name": "Experience row",
+      "kind": "custom",
+      "refersTo": "experience-row",
+      "description": "An unboxed date, employer and description row, stacked at mobile.",
+      "html": "<article class=\"ds-experience\"><div class=\"ds-date\">Aug 2025 — Present</div><h4>LIADTECH SAAS</h4><p>Mobile and backend development with Flutter, REST APIs, PostgreSQL and Azure.</p></article>",
+      "css": ".ds-experience{font-family:Menbere,sans-serif;display:grid;grid-template-columns:220px 1fr 1.25fr;gap:36px;align-items:start;padding:28px 0;border-top:1px solid var(--line,#c8cbc9);color:var(--ink,#171b25)}.ds-date{font-family:'DM Mono',monospace;font-size:12px;padding-top:5px;color:var(--muted,#58606c)}.ds-experience h4{font-size:17px;line-height:1.5;font-weight:700;margin:0}.ds-experience p{font-size:14px;line-height:1.65;color:var(--muted,#58606c);max-width:70ch;margin:0}@media(max-width:1100px){.ds-experience{grid-template-columns:170px 1fr 1.1fr;gap:24px}}@media(max-width:760px){.ds-experience{grid-template-columns:1fr;gap:10px;padding:24px 0}.ds-date{font-size:10px}.ds-experience p{font-size:13px}}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "Full text navigation with the shared ink-to-cobalt hover and authored contact arrow.",
+      "html": "<nav class=\"ds-navigation\" aria-label=\"Main navigation\"><a href=\"#work\">Work</a><a href=\"#about\">About</a><a href=\"#contact\">Contact<svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></a></nav>",
+      "css": ".ds-navigation{font-family:Menbere,sans-serif;display:flex;align-items:center;gap:36px}.ds-navigation a{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-size:15px;color:var(--ink,#171b25)}.ds-navigation a:hover{color:var(--blue,#234bea)}.ds-navigation a:focus-visible{outline:2px solid var(--blue,#234bea);outline-offset:5px;}.ds-navigation svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;width:24px;height:24px}@media(max-width:760px){.ds-navigation{gap:18px}.ds-navigation a{font-size:12px}.ds-navigation svg{display:none}}@media(max-width:370px){.ds-navigation{gap:12px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Engineering Viewing Desk",
+    "overview": "A warm paper reading field meets a saturated cobalt inspection stage. Large, compact lettering establishes the engineer's identity; the project controls couple a visible software artifact with its implementation context. The same visual language continues through open ruled experience rows, research columns and a full cobalt contact spread.\n\nThe system is precise and direct, with asymmetric desktop composition and an image-first mobile flow. English and French share the hierarchy. This record describes the completed code-led build; no approved page composition supplied visual authority. Source truth is src/styles.css, src/App.jsx, src/Lower.jsx, built dist/index.html, and dist/assets/favicon.svg. Desktop and French mobile captures corroborate the composition. The prior Contact Sheet identity is superseded only in this redesign branch.",
+    "keyCharacteristics": [
+      "Warm paper and ink reading surfaces with full-strength cobalt activity planes.",
+      "Monumental Menbere identity, readable Menbere prose and restrained DM Mono metadata.",
+      "Asymmetric artifact inspection that becomes image-first on mobile.",
+      "Open ruled chronology and research columns rather than enclosed reading cards.",
+      "One brief artifact reveal, native selection states and visible keyboard focus."
+    ],
+    "rules": [
+      {
+        "name": "The Activity Plane Rule",
+        "body": "Cobalt can fill the inspection and contact surfaces; on the paper reading field it marks identity, interaction and selection.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reading Face Rule",
+        "body": "Keep prose and controls in Menbere; reserve DM Mono for concise dates, stacks, counts and small technical annotations.",
+        "section": "typography"
+      },
+      {
+        "name": "The Inspection Order Rule",
+        "body": "Mobile places the selected artifact before its implementation context and keeps the three project choices visible.",
+        "section": "layout"
+      },
+      {
+        "name": "The Artifact Depth Rule",
+        "body": "Keep shadow elevation on the inspected software frame; open editorial content relies on type, space and rules.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use warm paper for reading and cobalt for the inspection and contact activity planes.",
+      "Do keep Menbere prose readable and DM Mono metadata concise.",
+      "Do preserve image-first mobile inspection and visible project choices.",
+      "Do use open ruled reading rows and the artifact's single soft shadow.",
+      "Do preserve visible focus, actual pressed states and reduced-motion behavior.",
+      "Do keep capture labels, provenance and original-file access connected to the displayed artifact."
+    ],
+    "donts": [
+      "Don't revive the superseded charcoal, orange or film-perforation identity in this branch.",
+      "Don't turn screenshot-internal colors, shadows or device corners into portfolio tokens.",
+      "Don't apply the preview crop to the full-size evidence gallery.",
+      "Don't expand project stacks or dates into decorative terminal prose.",
+      "Don't invent input fields, unimplemented control states or claims of verified project outcomes."
+    ]
+  }
+}

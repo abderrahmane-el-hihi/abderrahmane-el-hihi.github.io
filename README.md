@@ -1,6 +1,8 @@
 # Abderrahmane El Hihi — portfolio
 
-React portfolio in English and French, using the Contact Sheet design.
+React portfolio in English and French, using the Engineering Viewing Desk design on `design/blueprint-editorial`.
+
+This branch is a visual redesign preview. The GitHub Pages workflow deploys only `main`, so pushing this branch does not replace the live portfolio.
 
 ## GitHub Pages
 
