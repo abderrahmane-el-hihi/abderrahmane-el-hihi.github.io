@@ -74,3 +74,21 @@ body{margin:0;background:#171918}img{object-fit:contain}.r-nexa,.r-jibouli{objec
 @media(max-width:800px){.r-name{font-size:clamp(42px,10.3vw,78px)}.r-tagline{font-size:15px;line-height:1.6}.film-inscription{display:none}.languages{padding-left:8px}.evidence-note{grid-template-columns:1fr;gap:16px}.case-number{font-size:14px}.hero:before{opacity:.12}}
 @media(min-width:801px){.categories>*{border-bottom:0;padding-bottom:0}.categories span{border-right:1px solid var(--line);padding-right:1cqw;min-width:2.1cqw;line-height:1.6}}
 @media(min-width:1101px){.r-cemos img{width:110%;height:110%;position:relative;left:-5%;object-fit:contain;object-position:top}}
+.r-nexa img{object-fit:contain;background:#f8f7f3}
+.nexa-gallery{margin-top:64px}
+.gallery-heading{display:flex;justify-content:space-between;align-items:baseline;gap:24px;margin-bottom:24px}
+.gallery-heading h3{font-size:32px;letter-spacing:-.02em}
+.gallery-heading p{font-size:13px;line-height:1.6;color:var(--muted)}
+.capture-choices{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.capture-choices button{display:flex;flex-direction:column;text-align:left;gap:12px;padding:0 0 12px;border-bottom:1px solid var(--line);font-size:14px;line-height:1.5}
+.capture-choices button[aria-pressed=true]{color:var(--accent);border-color:var(--accent)}
+.capture-choices img{display:block;aspect-ratio:1440/1000;width:100%;height:auto;object-fit:contain;background:#f8f7f3}
+.capture-choices button:hover img{filter:brightness(.92)}
+.nexa-gallery figure{margin-top:32px}
+.capture-stage{display:block;background:#f8f7f3}
+.capture-stage img{width:100%;height:auto;max-height:780px;object-fit:contain}
+.nexa-gallery figcaption{display:flex;justify-content:space-between;gap:32px;align-items:flex-start;font-size:15px;line-height:1.6;margin-top:20px}
+.nexa-gallery figcaption strong{color:var(--paper);font-size:20px;font-weight:700}
+.nexa-gallery figcaption p{margin-top:6px;max-width:65ch}
+.nexa-gallery figcaption .text-link{flex-shrink:0;font-size:14px}
+@media(max-width:800px){.nexa-gallery{margin-top:40px}.gallery-heading{display:block;margin-bottom:20px}.gallery-heading h3{font-size:28px;margin-bottom:12px}.capture-choices{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 12px}.capture-choices button{font-size:12px;gap:8px;min-height:44px}.nexa-gallery figure{margin-top:24px}.nexa-gallery figcaption{flex-direction:column;gap:12px}.nexa-gallery figcaption strong{font-size:18px}.nexa-gallery figcaption .text-link{min-height:44px}}
